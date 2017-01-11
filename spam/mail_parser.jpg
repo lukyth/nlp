@@ -1,0 +1,4 @@
+for i in {1..75419}
+do
+	cat /Users/JoePotchara/Documents/CPE/NLP/work2/trec07p/data/inmail.$i | node parse_mail.js > inmail.$i.json
+done

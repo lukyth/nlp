@@ -1,0 +1,14 @@
+@relation Spamster
+
+@attribute 'X spam checker' numeric
+@attribute 'X spam level' numeric
+@attribute 'X spam status' numeric
+@attribute 'X rc spam' numeric
+@attribute 'X rc virus' numeric
+@attribute "Class" {'spam', 'ham'}
+
+@data
+
+0, 0, 0, 0, 0, "spam"
+1, 1, 1, 1, 1, "ham"
+0, 0, 0, 0, 0, "spam"
